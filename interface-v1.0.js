@@ -158,8 +158,7 @@ class GuiPanel {
 		}
 	}
 
-	update(x, y){
-		this.mouse = {x, y};
+	update(){
 		for(let i = 0; i < this.objects.length; i++){
 			this.objects[i].display();
 		}
@@ -233,8 +232,8 @@ class Gui {
 		activePanel.press();
 	}
 
-	static update(x, y){
-		activePanel.update(x, y);
+	static update(){
+		activePanel.update();
 	}
 
 	static selectNext(){
