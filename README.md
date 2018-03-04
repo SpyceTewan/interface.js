@@ -2,7 +2,7 @@
 interface.js is a library for JavaScript, that allows you to create GUI and render it with the framework of your choosing.
 
 ### How to use
-Open the wiki tab for reference and tutorials.
+Open the [wiki](https://github.com/SpyceTewan/interface.js/wiki) tab for reference and tutorials.
 
 # Releases:
 ### v1.0
